@@ -1,6 +1,6 @@
-# Hello Name Application
+# Add item to table app Application
 
-Welcome to the Hello Name Application repository! This simple Tkinter-based GUI application allows users to enter their name, validates the input, and then displays a personalized greeting.
+Welcome to the Add item to table app Application repository! This Tkinter-based GUI application allows users to enter a row into a table.
 
 ## The Design
 
@@ -35,7 +35,7 @@ The app was prototyped using [Figma](https://www.figma.com/design/CgwDsn1tYo8Yff
 
 The code design is summarised in the class diagram below.
 
-The `App_Window` class inherits from the `ctk.CTk` class, which provides the foundational GUI window functionality. This inheritance allows `App_Window` to use and extend the methods and attributes of `ctk.CTk` to create a customised application window with specific features.
+The `App_Window` class inherits from the `ctk.CTk` class, which provides the foundational GUI window functionality. This inheritance allows `App_Window` to use and extend the methods and attributes of `ctk.CTk` to create a customised application window with specific features.  All the other classes are placed inside this class.
 
 The `Frame` and `Table` class inherits from the `ctk.CTkFrame` class, which provides foundational responsive component functionality. This inheritance allows `Frame` and `Table` to be placed inside themselves in order to create a reponsive app. `Frame` is extended with flaxible layout and colour option and `Table` is extended with an interactive tkinter table.
 
