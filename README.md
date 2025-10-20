@@ -6,13 +6,14 @@ Welcome to the Hello Name Application repository! This simple Tkinter-based GUI 
 
 ### Functional Requirements
 
-- The application shall display a window titled "Hello Name".
-- The application window shall have dimensions 650x400 pixels.
-- The background color of the application window shall be #d7aefc.
-- The application shall display a label with the text "Enter your name in the box below".
-- The application shall provide an input field for the user to enter their name.
-- The application shall provide a "Submit" button. When clicked, the button shall trigger the action to output a name and a hello message.
-- The application shall display the output below the submit button.
+- The application shall display a window titled "Add item to table app".
+- The application window shall have dimensions 1200x600 pixels.
+- The background color of the application window shall be white or dark grey depending on light mode.
+- The application shall display a label with the text "Enter a new item".
+- The application shall provide an input field for the user to enter information for 3 rows.
+- The application shall provide a "Submit" button. When clicked, the button shall trigger the action to save the item to a table.
+- The application shall allow deleting of items.
+- The appliation shall have appropriate data input such as dropdowns or text input.
 
 ### Non-Functional Requirements
 
@@ -34,6 +35,8 @@ The app was prototyped using [Figma](https://www.figma.com/design/CgwDsn1tYo8Yff
 
 The code design is summarised in the class diagram below.
 
-The `HelloName` class inherits from the `tk.Tk` class, which provides the foundational GUI window functionality. This inheritance allows `HelloName` to use and extend the methods and attributes of `tk.Tk` to create a customised application window with specific features for user interaction and input validation.
+The `App_Window` class inherits from the `ctk.CTk` class, which provides the foundational GUI window functionality. This inheritance allows `App_Window` to use and extend the methods and attributes of `ctk.CTk` to create a customised application window with specific features.
+
+The `Frame` and `Table` class inherits from the `ctk.CTkFrame` class, which provides foundational responsive component functionality. This inheritance allows `Frame` and `Table` to be placed inside themselves in order to create a reponsive app. `Frame` is extended with flaxible layout and colour option and `Table` is extended with an interactive tkinter table.
 
 ![class-diagram](HelloName.png)

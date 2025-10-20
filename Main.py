@@ -97,11 +97,6 @@ class App_Window(ctk.CTk):
         self.menu = Frame(self.body, side = "right", colour_background = colour_menu, width = 300, corner_radius = 5, padding_verticle = 5, padding_horizontal = (0,5))
 
 
-
-
-
-        
-
 class Frame(ctk.CTkFrame):
     def __init__(
             self, 
@@ -198,10 +193,7 @@ class Table(ctk.CTkFrame):
 
         for row in data:
             self.tree.insert("", "end", values=row)
-
-        
-
-
+    
 
 if __name__ == "__main__":
     app = App_Window()
