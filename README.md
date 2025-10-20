@@ -29,7 +29,7 @@ Welcome to the Add item to table app Application repository! This Tkinter-based 
 
 The app was prototyped using [Figma](https://www.figma.com/design/PMYPoYa4koSNLf0LBXGbHx/Apps?node-id=4001-2960&p=f&t=P8jyBnSRsRnxKFNO-0).
 
-![mockups]('Formative Figma Diagram.png')
+![mockups](Formative_Figma_Diagram.png)
 
 ### Code Design
 
