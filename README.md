@@ -43,4 +43,5 @@ The `Frame` and `Table` class inherits from the `ctk.CTkFrame` class, which prov
 
 ### References
 [customtkinter documentation](https://customtkinter.tomschimansky.com/documentation/appearancemode)
+
 [Adding a table](https://github.com/TomSchimansky/CustomTkinter/discussions/431)
